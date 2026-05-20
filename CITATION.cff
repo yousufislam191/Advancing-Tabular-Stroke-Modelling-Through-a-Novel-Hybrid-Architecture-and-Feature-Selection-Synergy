@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+type: software
+title: "Advancing Tabular Stroke Modelling Through a Novel Hybrid Architecture and Feature-Selection Synergy"
+authors:
+  - family-names: "Islam"
+    given-names: "Yousuf"
+  - family-names: "Uddin Chowdhury"
+    given-names: "Md. Jalal"
+  - family-names: "Chandra Das"
+    given-names: "Sumon"
+  - family-names: "Choudhury"
+    given-names: "Tajwar Elahi"
+  - family-names: "Tahra"
+    given-names: "Suhrath"
+  - family-names: "Sharmin"
+    given-names: "Rukaiya Akther"
+repository-code: "https://github.com/yousufislam191/Advancing-Tabular-Stroke-Modelling-Through-a-Novel-Hybrid-Architecture-and-Feature-Selection-Synergy"
+url: "https://ieeexplore.ieee.org/abstract/document/11503962"
+abstract: "This repository implements a machine learning framework for predicting stroke risk using tabular data. The approach combines rigorous data preprocessing, smart feature selection, and a hybrid ensemble model achieving 97.2% accuracy."
+keywords:
+  - "stroke prediction"
+  - "machine learning"
+  - "ensemble models"
+  - "feature selection"
+  - "tabular data"
+  - "neural networks"
+  - "random forest"
+  - "XGBoost"
+  - "LightGBM"
+date-released: 2025-01-01
+license: "MIT"
+version: "1.0.0"
+doi: "10.1109/BECITHCON69222.2025.11503962"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Islam"
+      given-names: "Yousuf"
+    - family-names: "Uddin Chowdhury"
+      given-names: "Md. Jalal"
+    - family-names: "Chandra Das"
+      given-names: "Sumon"
+    - family-names: "Choudhury"
+      given-names: "Tajwar Elahi"
+    - family-names: "Tahra"
+      given-names: "Suhrath"
+    - family-names: "Sharmin"
+      given-names: "Rukaiya Akther"
+  title: "Advancing Tabular Stroke Modelling Through a Novel Hybrid Architecture and Feature-Selection Synergy"
+  conference:
+    name: "2025 IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health (BECITHCON)"
+  year: 2025
+  pages: "812-817"
+  doi: "10.1109/BECITHCON69222.2025.11503962"
