@@ -212,8 +212,3 @@ If you use this code or results, please cite the paper and the DOI. A machine‑
 
 Y. Islam, "Advancing Tabular Stroke Modelling Through a Novel Hybrid Architecture and Feature‑Selection Synergy," 2025.
 
----
-
-## 7. Contact
-
-If you have questions, file an issue or open a pull request on this repository. You can also contact the author via their GitHub profile: `yousufislam191`.
