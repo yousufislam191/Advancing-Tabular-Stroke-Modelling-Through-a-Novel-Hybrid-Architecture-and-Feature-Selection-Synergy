@@ -2,6 +2,8 @@ Welcome! This repository explains the implementation of the research work **"Adv
 
 ### [📖 Read The Full Paper](https://www.researchgate.net/publication/404670907_Advancing_Tabular_Stroke_Modelling_Through_a_Novel_Hybrid_Architecture_and_Feature-Selection_Synergy) &nbsp;|&nbsp; [📓 View the Notebook](main.ipynb)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yousufislam191/Advancing-Tabular-Stroke-Modelling-Through-a-Novel-Hybrid-Architecture-and-Feature-Selection-Synergy/blob/main/main.ipynb)
+
 ---
 
 ## 1. What is this project about?
@@ -43,11 +45,14 @@ We use Google Colab to run the code and the following main libraries:
 - **lightgbm, xgboost** – advanced tree‑based models
 - **joblib, concurrent.futures** – parallel processing to save time
 
-Install them all at once:
+To run this project we recommend using **Google Colab**. Open the notebook using the badge above and run the dependency installation cell at the top of the notebook. In Colab, run this cell before executing the rest of the notebook:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn lightgbm xgboost joblib
+# In a Colab notebook cell:
+!pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn lightgbm xgboost joblib
 ```
+
+If you prefer to run locally, create a virtual environment and run the same `pip install` command locally. (No `requirements.txt` is included because the workflow targets Colab.)
 
 ### 3.2. Data Loading and Exploratory Data Analysis (EDA)
 
@@ -184,3 +189,31 @@ Results are displayed as:
 | **Stacking Ensemble (Full)** | **99.66% ± 0.29%**   | **97.20% ± 1.57%**    | **97.15% ± 1.70%**    |
 
 The Stacking Ensemble outperforms all other methods, proving that combining diverse models with a meta‑learner yields superior stroke prediction.
+
+---
+
+## 5. Usage
+
+- **Run in Google Colab (recommended):** Click the "Open In Colab" badge at the top to open `main.ipynb` in Colab. If the notebook requires external data, upload the CSV file to the Colab session or mount your Google Drive:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+# then adjust file paths, e.g. '/content/drive/MyDrive/path/to/dataset.csv'
+```
+
+- **Run cells:** Execute cells top‑to‑bottom. The first code cell installs dependencies; run it before other cells.
+
+- **Local run (optional):** If you need to run locally, create a virtual environment and install packages used in the notebook (same pip list as the Colab cell). Ensure your Python version is 3.9+.
+
+## 6. Cite this work
+
+If you use this code or results, please cite the paper and the DOI. A machine‑readable `CITATION.cff` is included. Suggested citation (BibTeX available in the `CITATION.cff`):
+
+Y. Islam, "Advancing Tabular Stroke Modelling Through a Novel Hybrid Architecture and Feature‑Selection Synergy," 2025.
+
+---
+
+## 7. Contact
+
+If you have questions, file an issue or open a pull request on this repository. You can also contact the author via their GitHub profile: `yousufislam191`.
