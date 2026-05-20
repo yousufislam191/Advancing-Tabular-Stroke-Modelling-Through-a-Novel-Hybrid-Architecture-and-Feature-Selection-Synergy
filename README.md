@@ -1,6 +1,6 @@
 Welcome! This repository explains the implementation of the research work **"Advancing Tabular Stroke Modelling Through a Novel Hybrid Architecture and Feature‑Selection Synergy"**, published at the [2025 IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health](https://ieeexplore.ieee.org/abstract/document/11503962/) conference.
 
-### [📖 Read The Full Paper](https://www.researchgate.net/publication/404670907_Advancing_Tabular_Stroke_Modelling_Through_a_Novel_Hybrid_Architecture_and_Feature-Selection_Synergy)
+### [📖 Read The Full Paper](https://www.researchgate.net/publication/404670907_Advancing_Tabular_Stroke_Modelling_Through_a_Novel_Hybrid_Architecture_and_Feature-Selection_Synergy) &nbsp;|&nbsp; [📓 View the Notebook](main.ipynb)
 
 ---
 

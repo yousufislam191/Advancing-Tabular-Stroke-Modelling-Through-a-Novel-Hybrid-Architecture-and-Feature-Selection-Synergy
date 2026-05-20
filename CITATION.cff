@@ -27,7 +27,7 @@ keywords:
   - "random forest"
   - "XGBoost"
   - "LightGBM"
-date-released: 2025-01-01
+date-released: 2025-11-29
 license: "MIT"
 version: "1.0.0"
 doi: "10.1109/BECITHCON69222.2025.11503962"
@@ -49,6 +49,10 @@ preferred-citation:
   title: "Advancing Tabular Stroke Modelling Through a Novel Hybrid Architecture and Feature-Selection Synergy"
   conference:
     name: "2025 IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health (BECITHCON)"
+    location: "Dhaka, Bangladesh"
+    date-start: 2025-11-29
+    date-end: 2025-11-30
   year: 2025
   pages: "812-817"
   doi: "10.1109/BECITHCON69222.2025.11503962"
+  publisher: "IEEE"
